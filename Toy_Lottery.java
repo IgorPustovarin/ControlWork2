@@ -49,7 +49,7 @@ public class Toy_Lottery {
     // чтение файла с выигранными игрушками
     public void readFile() {
         try {
-            FileReader fr = new FileReader("winning_toys.txt");
+            FileReader fr = new FileReader("YouWin.txt");
             BufferedReader reader = new BufferedReader(fr);
             String line = reader.readLine();
             while (line != null) {
